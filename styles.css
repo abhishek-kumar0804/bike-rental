@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+}
+.check {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.home-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    flex: right;
+    width: 350px;
+    margin-right: 44px;
+}
+
+.hero {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 600px;
+    border: 2px solid red;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: 1950px 600px;
+    
+    
+
+    display: flex;
+    justify-content: flex-end;
+}
+.free {
+    display: inherit;
+    background-color: green;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+
+}
+button {
+    height: 40px;
+    background-color: green;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 11px;
+    margin-top: 11px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px;
+} 
+.submit:hover{
+    
+    background-color: rgb(100, 226, 100);
+}
+.home-hero .placeholder {
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.home-hero > p {
+    margin-top: 15px;
+    margin-left: 15px;
+} 
+
+
+.package {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.box {
+    box-shadow: -3px 3px 9px 2px #00000035;
+    margin: 10px;
+    
+    width: 25rem;
+    height: auto;
+    
+}
+.box .img {
+    width: 100%;
+    position: center;
+}
+.tinybox {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 14px ;
+}
+
+.imgz {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+    
+    
+}
+.wrapper {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin: 0 14px 0 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper2 {
+    align-items: center;
+    width: max-content;
+    
+    display: flex;
+}
+
+.headwrapper {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*/////////// reasons////////  */
+
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 16px;
+}
+
+.reasons {
+    
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+    
+
+}
+
+.boxes {
+    align-items: center;
+    text-align: center;
+    box-shadow: -3px 3px 9px 2px #00000035;
+    padding: 15px;
+    margin: 8px;
+    /*border: 2px solid blue;*/
+    width: 18rem;
+    
+
+    
+}
+
+.testimonial {
+    
+    text-align: center;
+    margin: auto;
+    
+}
+.ladakh {
+    width: 70%;
+    margin: auto;
+}
+.head {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(17, 17, 17);
+}
+.footer2 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    padding:7px ;
+}
+.footer3 {
+    border-top: 1px solid wheat;
+    text-align: center;
+}
+
+@media(max-width: 934px ) {
+    .hero {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        height: 600px;
+        
+        background-image: url(./images/background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 1950px 600px;
+        flex-direction: column;
+        
+    
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+}
