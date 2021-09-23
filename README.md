@@ -1,3 +1,3 @@
 # bike-rental
 Landing Page
-LIVE LINK:- https://abhishek-kumar0804.github.io/bike-rental/
+LIVE LINK:- https://abhixhek-kumar.github.io/bike-rental/
